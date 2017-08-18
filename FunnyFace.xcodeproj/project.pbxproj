@@ -12,6 +12,7 @@
 		DC1435951F46A273002A55F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1435931F46A273002A55F7 /* Main.storyboard */; };
 		DC1435971F46A273002A55F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1435961F46A273002A55F7 /* Assets.xcassets */; };
 		DC14359A1F46A273002A55F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1435981F46A273002A55F7 /* LaunchScreen.storyboard */; };
+		DC1435A31F46A379002A55F7 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1435A21F46A379002A55F7 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DC1435961F46A273002A55F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1435991F46A273002A55F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC14359B1F46A273002A55F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1435A21F46A379002A55F7 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		DC14358E1F46A273002A55F7 /* FunnyFace */ = {
 			isa = PBXGroup;
 			children = (
-				DC14358F1F46A273002A55F7 /* AppDelegate.swift */,
 				DC1435911F46A273002A55F7 /* ViewController.swift */,
+				DC1435A21F46A379002A55F7 /* FaceView.swift */,
 				DC1435931F46A273002A55F7 /* Main.storyboard */,
+				DC1435A11F46A328002A55F7 /* Supporting Files */,
+			);
+			path = FunnyFace;
+			sourceTree = "<group>";
+		};
+		DC1435A11F46A328002A55F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC14358F1F46A273002A55F7 /* AppDelegate.swift */,
 				DC1435961F46A273002A55F7 /* Assets.xcassets */,
 				DC1435981F46A273002A55F7 /* LaunchScreen.storyboard */,
 				DC14359B1F46A273002A55F7 /* Info.plist */,
 			);
-			path = FunnyFace;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				DC1435921F46A273002A55F7 /* ViewController.swift in Sources */,
 				DC1435901F46A273002A55F7 /* AppDelegate.swift in Sources */,
+				DC1435A31F46A379002A55F7 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

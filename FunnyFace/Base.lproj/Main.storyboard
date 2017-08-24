@@ -24,6 +24,7 @@
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="x7s-8K-XPb" customClass="FaceView" customModule="FunnyFace" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="YES"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
@@ -34,6 +35,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="scale">
                                         <real key="value" value="0.90000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -46,6 +50,9 @@
                             <constraint firstItem="x7s-8K-XPb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cRj-q0-pQi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="x7s-8K-XPb" id="qfl-J8-RrP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
